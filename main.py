@@ -1,4 +1,5 @@
 # Code from mostly from https://medium.com/@ramamurthi96/a-simple-neural-network-model-for-mnist-using-pytorch-4b8b148ecbdc
+# numpy==1.21.4
 
 import torch
 from torch.utils.data import Dataset
