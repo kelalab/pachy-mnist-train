@@ -1,0 +1,19 @@
+{
+    "pipeline": {
+        "name": "mnist-train"
+    },
+    "description": "Custom processor for testing.",
+    "transform": {
+        "cmd": [
+            "python3",
+            "/main.py"
+        ],
+        "image": "pachy-mnist-train:0.0.1"
+    },
+    "input": {
+        "pfs": {
+            "repo": "mnist",
+            "glob": "/*"
+        }
+    }
+}
