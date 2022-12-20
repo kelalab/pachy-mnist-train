@@ -1,4 +1,0 @@
-pip install -r requirements.txt
-
-# set permissions for any installed artifacts
-fix-permissions /opt/app-root -P
