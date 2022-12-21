@@ -248,4 +248,4 @@ if __name__ == '__main__':
     plt.ylabel("Train Loss")
  
     plt.savefig(os.path.join(OUTPUT, 'figure.png'), bbox_inches='tight')
-    torch.save(model.state_dict(), os.path.join(OUTPUT, 'mnist.pt'))
+    torch.save(model.state_dict(), os.path.join(OUTPUT, 'model.pt'))
